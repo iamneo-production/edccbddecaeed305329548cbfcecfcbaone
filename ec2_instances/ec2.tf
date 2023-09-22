@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "aws" {
-  region     = "ap-southeast-1"  # Singapore region
-  access_key = "YOUR_ACCESS_KEY"
-  secret_key = "YOUR_SECRET_KEY"
+  region     = "ap-northeast-1"  # Singapore region
+  access_key = "AKIAQ4XSAOEF7IJKZ44S"
+  secret_key = "BbiwcgcnRpZWp5BIoCnZ6t52C3QetuWV8L9TrxMJ"
 }
 
 resource "aws_instance" "linux_server" {
